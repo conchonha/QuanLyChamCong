@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ah"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <TextView
+        android:id="@+id/masp"
+        android:layout_width="@dimen/Size9"
+        android:layout_height="35dp"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@+id/them_cn"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="@dimen/Size4"
+        android:layout_marginTop="@dimen/Size3"
+        android:textSize="@dimen/Size4"
+        android:textStyle="bold"
+        android:background="@drawable/custom_edit_text"
+        android:textColor="@color/color3"
+        android:text="Ngày"
+        />
+    <EditText
+        android:id="@+id/tv_ngay_cc"
+        android:layout_width="@dimen/size10"
+        android:layout_height="35dp"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@+id/them_cn"
+        app:layout_constraintStart_toEndOf="@+id/tv1_macc"
+        android:layout_marginStart="@dimen/Size6"
+        android:layout_marginTop="@dimen/Size3"
+        android:textSize="@dimen/Size4"
+        android:background="@drawable/custom_edit_text"
+        android:textStyle="normal"
+        android:textColor="@color/color3"
+        />
+
+    <TextView
+        android:id="@+id/them_cn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thêm chấm công"
+        android:textSize="@dimen/Size"
+        android:textColor="@color/color_app"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/Size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/tv1_macc"
+        android:layout_width="@dimen/Size9"
+        android:layout_height="35dp"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@+id/masp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="@dimen/Size4"
+        android:layout_marginTop="@dimen/Size5"
+        android:textSize="@dimen/Size4"
+        android:textStyle="bold"
+        android:background="@drawable/custom_edit_text"
+        android:textColor="@color/color3"
+        android:text="Mã chấm công"
+        />
+    <EditText
+        android:id="@+id/tv_ma_cc"
+        android:layout_width="@dimen/size10"
+        android:layout_height="35dp"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@+id/tv_ngay_cc"
+        app:layout_constraintStart_toEndOf="@+id/tv1_macc"
+        android:layout_marginStart="@dimen/Size6"
+        android:layout_marginTop="@dimen/Size5"
+        android:textSize="@dimen/Size4"
+        android:background="@drawable/custom_edit_text"
+        android:textStyle="normal"
+        android:textColor="@color/color3"
+        />
+    <TextView
+        android:id="@+id/macn"
+        android:layout_width="@dimen/Size9"
+        android:layout_height="35dp"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@+id/tv1_macc"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="@dimen/Size4"
+        android:layout_marginTop="@dimen/Size5"
+        android:textSize="@dimen/Size4"
+        android:textStyle="bold"
+        android:background="@drawable/custom_edit_text"
+        android:textColor="@color/color3"
+        android:text="Mã công nhân"
+        />
+    <EditText
+        android:id="@+id/edt_ma_cn_cc"
+        android:layout_width="@dimen/size10"
+        android:layout_height="35dp"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@+id/tv1_macc"
+        app:layout_constraintStart_toEndOf="@+id/tv1_macc"
+        android:layout_marginStart="@dimen/Size6"
+        android:layout_marginTop="@dimen/Size5"
+        android:textSize="@dimen/Size4"
+        android:background="@drawable/custom_edit_text"
+        android:textStyle="normal"
+        android:textColor="@color/color3"
+        />
+    <TextView
+        android:id="@+id/tv_tencn"
+        android:layout_width="@dimen/Size9"
+        android:layout_height="35dp"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@+id/macn"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="@dimen/Size4"
+        android:layout_marginTop="@dimen/Size5"
+        android:textSize="@dimen/Size4"
+        android:textStyle="bold"
+        android:background="@drawable/custom_edit_text"
+        android:textColor="@color/color3"
+        android:text="Tên công nhân"
+        />
+
+    <EditText
+        android:id="@+id/edt_tencn_cc"
+        android:layout_width="@dimen/size10"
+        android:layout_height="35dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/custom_edit_text"
+        android:gravity="center"
+        android:textColor="@color/color3"
+        android:textSize="@dimen/Size4"
+        android:textStyle="normal"
+        app:layout_constraintStart_toEndOf="@+id/tv1_macc"
+        app:layout_constraintTop_toBottomOf="@+id/edt_ma_cn_cc" />
+
+    <TextView
+        android:id="@+id/tv_thanhpham"
+        android:layout_width="@dimen/Size9"
+        android:layout_height="35dp"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@+id/edt_tencn_cc"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="@dimen/Size4"
+        android:layout_marginTop="@dimen/Size5"
+        android:textSize="@dimen/Size4"
+        android:textStyle="bold"
+        android:background="@drawable/custom_edit_text"
+        android:textColor="@color/color3"
+        android:text="Thành phẩm"
+        />
+    <EditText
+        android:id="@+id/edt_thanhpham"
+        android:layout_width="@dimen/size10"
+        android:layout_height="35dp"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@+id/edt_tencn_cc"
+        app:layout_constraintStart_toEndOf="@+id/tv1_macc"
+        android:layout_marginStart="@dimen/Size6"
+        android:layout_marginTop="@dimen/Size5"
+        android:textSize="@dimen/Size4"
+        android:background="@drawable/custom_edit_text"
+        android:textStyle="normal"
+        android:textColor="@color/color3"
+        />
+    <TextView
+        android:id="@+id/tv_phepham"
+        android:layout_width="@dimen/Size9"
+        android:layout_height="35dp"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@+id/tv_thanhpham"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="@dimen/Size4"
+        android:layout_marginTop="@dimen/Size5"
+        android:textSize="@dimen/Size4"
+        android:textStyle="bold"
+        android:background="@drawable/custom_edit_text"
+        android:textColor="@color/color3"
+        android:text="Phế Phẩm"
+        />
+    <EditText
+        android:id="@+id/edt_phepham"
+        android:layout_width="@dimen/size10"
+        android:layout_height="35dp"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@+id/tv_thanhpham"
+        app:layout_constraintStart_toEndOf="@+id/tv1_macc"
+        android:layout_marginStart="@dimen/Size6"
+        android:layout_marginTop="@dimen/Size5"
+        android:textSize="@dimen/Size4"
+        android:background="@drawable/custom_edit_text"
+        android:textStyle="normal"
+        android:textColor="@color/color3"
+        />
+
+        <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/luu_cc"
+        android:layout_width="@dimen/Size9"
+        android:layout_height="@dimen/sizebutton"
+        android:background="@drawable/custom_btb"
+        android:text="@string/name_cc"
+        android:textColor="@color/color_app"
+        android:gravity="center"
+        android:layout_marginStart="@dimen/Size"
+        android:layout_marginTop="@dimen/Size2"
+        android:textSize="@dimen/Size4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_phepham"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/huy_cc"
+        android:layout_width="@dimen/Size9"
+        android:layout_height="@dimen/sizebutton"
+        android:background="@drawable/custom_btb"
+        android:text="@string/name_cc2"
+        android:textColor="@color/color_app"
+        android:gravity="center"
+        android:layout_marginStart="@dimen/Size"
+        android:layout_marginTop="@dimen/Size2"
+        android:textSize="@dimen/Size4"
+        app:layout_constraintStart_toEndOf="@+id/luu_cc"
+        app:layout_constraintTop_toBottomOf="@+id/tv_phepham"/>
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/ic_baseline_chevron_left"
+        android:layout_marginBottom="@dimen/Size5"
+        android:layout_marginStart="@dimen/Size5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/Size8"
+        android:layout_marginBottom="@dimen/mg_btn"
+        android:text="Back"
+        android:gravity="center"
+        android:textSize="@dimen/Size4"
+        app:layout_constraintBottom_toBottomOf="@+id/back"
+        app:layout_constraintStart_toEndOf="@+id/back" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

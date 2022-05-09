@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Quan_Ly_Cham_Cong</string>
+    <string name="name2">Danh Sách Công Nhân</string>
+    <string name="name3">Danh Sách Sản Phẩm</string>
+    <string name="name4">Chấm Công</string>
+    <string name="name5">Bảng Thông Tin C/C</string>
+    <string name="name6">Báo Cáo</string>
+    <string name="name7">Thoát</string>
+    <string name="name8">Mã công nhân</string>
+    <string name="name9">Họ và tên</string>
+    <string name="name1_1">Phân xưởng</string>
+    <string name="name_cc">Lưu</string>
+    <string name="name_cc2">Hủy</string>
+    <string name="them_nv">Thêm công nhân</string>
+    <string name="themsp">Thêm sản phẩm</string>
+
+    <string name="sua_nv">Sửa công nhân</string>
+    <string name="sua_sp">Sửa sản phẩm</string>
+
+    <string name="ds_sp">Danh sách sản phẩm</string>
+    <string name="ds_cc">Danh sách chấm công</string>
+
+    <string name="ma_sp">Mã sản phẩm</string>
+    <string name="name_sp">Tên sản phẩm</string>
+    <string name="dg_sp">Đơn giá</string>
+    <string name="ma">Mã chấm công</string>
+    <string name="ngay">Ngày chấm</string>
+    <string name="ma_nvv">Mã nhân viên</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

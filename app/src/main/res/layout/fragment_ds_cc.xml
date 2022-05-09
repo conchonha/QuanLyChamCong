@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/br11"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/tv_cc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ds_cc"
+        android:textSize="@dimen/Size"
+        android:textColor="@color/color_app"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/Size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/Size6"
+        android:id="@+id/search_root_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_cc">
+
+
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/search_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipToPadding="false"
+        android:fitsSystemWindows="true"
+        app:cardBackgroundColor="@android:color/white"
+        app:cardCornerRadius="3dp"
+        app:cardElevation="3dp"
+        android:layout_marginLeft="@dimen/Size5"
+        android:layout_marginTop="@dimen/Size6"
+        android:layout_marginRight="@dimen/Size5"
+        android:layout_marginBottom="@dimen/Size5"
+        app:cardUseCompatPadding="false"
+        app:layout_collapseMode="pin"
+        app:layout_constraintTop_toBottomOf="@+id/tv_cc"
+        tools:layout_editor_absoluteX="10dp">
+
+        <SearchView
+            android:id="@+id/btn_search_cc"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </androidx.cardview.widget.CardView>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcv_dssp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/them_cc"
+        app:layout_constraintTop_toBottomOf="@+id/search_bar"
+        tools:layout_editor_absoluteX="15dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/them_cc"
+        android:layout_width="@dimen/sizebutton"
+        android:layout_height="@dimen/sizebutton"
+        android:background="@drawable/custom_btnthem"
+        android:layout_marginBottom="@dimen/sizebutton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+    <ImageView
+        android:id="@+id/back_sp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/ic_baseline_chevron_left"
+        android:layout_marginBottom="@dimen/Size5"
+        android:layout_marginStart="@dimen/Size5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/Size8"
+        android:layout_marginBottom="@dimen/mg_btn"
+        android:text="Back"
+        android:gravity="center"
+        android:textSize="@dimen/Size4"
+        app:layout_constraintBottom_toBottomOf="@+id/back_sp"
+        app:layout_constraintStart_toEndOf="@+id/back_sp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

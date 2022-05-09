@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:drawable="@drawable/custom_btb"
+    >
+</item>
+    <item
+        android:drawable="@drawable/ic_baseline_add_24"
+        android:start="@dimen/Size5"
+        android:bottom="@dimen/Size5"
+        android:end="@dimen/Size5"
+        android:top="@dimen/Size5"
+        >
+
+
+    </item>
+</layer-list>

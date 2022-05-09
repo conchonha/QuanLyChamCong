@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "346945154183",
+    "project_id": "appdemo-5daf8",
+    "storage_bucket": "appdemo-5daf8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:346945154183:android:e416d69ee296a2dd9a5c22",
+        "android_client_info": {
+          "package_name": "com.example.quan_ly_cham_cong"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "346945154183-2nom8kigs72il7n3sndffug7r9cj0qrh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7uj6FdiU_Uv6mghNjxza1AUMyjX39Jjw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "346945154183-2nom8kigs72il7n3sndffug7r9cj0qrh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

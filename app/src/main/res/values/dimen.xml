@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<resources>
+    <!--Quản lý chấm công-->
+    <dimen name="Size">30dp</dimen>
+    <dimen name="radius">70dp</dimen>
+    <dimen name="ttSize">25dp</dimen>
+    <dimen name="Size2">40dp</dimen>
+    <dimen name="Size3">50dp</dimen>
+    <dimen name="Size4">20dp</dimen>
+    <dimen name="Size5">10dp</dimen>
+    <dimen name="Size6">15dp</dimen>
+    <dimen name="Size7">5dp</dimen>
+    <dimen name="Size8">8dp</dimen>
+    <dimen name="Size9">150dp</dimen>
+    <dimen name="edit">35dp</dimen>
+    <dimen name="sizebutton">60dp</dimen>
+    <dimen name="mg_btn">16dp</dimen>
+    <dimen name="size10">200dp</dimen>
+</resources>

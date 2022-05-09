@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Quan_Ly_Cham_Cong/app/src/main/res/drawable-v24/custom_btn.xml" value="0.1765" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Quan_Ly_Cham_Cong/app/src/main/res/drawable-v24/custom_edit_text.xml" value="0.253" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Quan_Ly_Cham_Cong/app/src/main/res/drawable/color_btn.xml" value="0.1765" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Quan_Ly_Cham_Cong/app/src/main/res/drawable/custom_btb.xml" value="0.1765" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Quan_Ly_Cham_Cong/app/src/main/res/drawable/custom_btn2.xml" value="0.1765" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Quan_Ly_Cham_Cong/app/src/main/res/drawable/custom_btnthem.xml" value="0.1765" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Quan_Ly_Cham_Cong/app/src/main/res/drawable/ic_baseline_perm_identity_24.xml" value="0.1765" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Quan_Ly_Cham_Cong/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1765" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Quan_Ly_Cham_Cong/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Quan_Ly_Cham_Cong/app/src/main/res/layout/custom_ds_cc.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Quan_Ly_Cham_Cong/app/src/main/res/layout/custom_ds_sp.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Quan_Ly_Cham_Cong/app/src/main/res/layout/custom_qlcc.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Quan_Ly_Cham_Cong/app/src/main/res/layout/fragmen_ds_cn.xml" value="0.33" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Quan_Ly_Cham_Cong/app/src/main/res/layout/fragmen_ds_sp.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Quan_Ly_Cham_Cong/app/src/main/res/layout/fragmen_edit_cn.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Quan_Ly_Cham_Cong/app/src/main/res/layout/fragmen_themcn.xml" value="0.25677083333333334" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Quan_Ly_Cham_Cong/app/src/main/res/layout/fragmen_themsp.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Quan_Ly_Cham_Cong/app/src/main/res/layout/fragment_ds_cc.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Quan_Ly_Cham_Cong/app/src/main/res/layout/fragment_edit_sp.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Quan_Ly_Cham_Cong/app/src/main/res/layout/toolbar_qlcm.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/Admin/Desktop/Quan_Ly_Cham_Cong/app/src/main/res/drawable-v24/custom_edit_text.xml" value="0.173" />
+        <entry key="..\:/Users/Admin/Desktop/Quan_Ly_Cham_Cong/app/src/main/res/layout/activity_bieu_do.xml" value="0.35052083333333334" />
+        <entry key="..\:/Users/Admin/Desktop/Quan_Ly_Cham_Cong/app/src/main/res/layout/activity_main.xml" value="0.26296296296296295" />
+        <entry key="..\:/Users/Admin/Desktop/Quan_Ly_Cham_Cong/app/src/main/res/layout/activity_sign_in.xml" value="0.35052083333333334" />
+        <entry key="..\:/Users/Admin/Desktop/Quan_Ly_Cham_Cong/app/src/main/res/layout/activity_them_bc.xml" value="0.35052083333333334" />
+        <entry key="..\:/Users/Admin/Desktop/Quan_Ly_Cham_Cong/app/src/main/res/layout/custom_bao_cao.xml" value="0.35052083333333334" />
+        <entry key="..\:/Users/Admin/Desktop/Quan_Ly_Cham_Cong/app/src/main/res/layout/custom_ds_cc.xml" value="0.34512820512820513" />
+        <entry key="..\:/Users/Admin/Desktop/Quan_Ly_Cham_Cong/app/src/main/res/layout/custom_ds_sp.xml" value="0.33" />
+        <entry key="..\:/Users/Admin/Desktop/Quan_Ly_Cham_Cong/app/src/main/res/layout/custom_dscn.xml" value="0.35052083333333334" />
+        <entry key="..\:/Users/Admin/Desktop/Quan_Ly_Cham_Cong/app/src/main/res/layout/custom_qlcc.xml" value="0.35052083333333334" />
+        <entry key="..\:/Users/Admin/Desktop/Quan_Ly_Cham_Cong/app/src/main/res/layout/fragmen_ds_cn.xml" value="0.2632066728452271" />
+        <entry key="..\:/Users/Admin/Desktop/Quan_Ly_Cham_Cong/app/src/main/res/layout/fragmen_ds_sp.xml" value="0.22" />
+        <entry key="..\:/Users/Admin/Desktop/Quan_Ly_Cham_Cong/app/src/main/res/layout/fragmen_edit_cn.xml" value="0.33" />
+        <entry key="..\:/Users/Admin/Desktop/Quan_Ly_Cham_Cong/app/src/main/res/layout/fragmen_themcn.xml" value="0.34512820512820513" />
+        <entry key="..\:/Users/Admin/Desktop/Quan_Ly_Cham_Cong/app/src/main/res/layout/fragmen_themsp.xml" value="0.26296296296296295" />
+        <entry key="..\:/Users/Admin/Desktop/Quan_Ly_Cham_Cong/app/src/main/res/layout/fragment_bc.xml" value="0.35052083333333334" />
+        <entry key="..\:/Users/Admin/Desktop/Quan_Ly_Cham_Cong/app/src/main/res/layout/fragment_ds_cc.xml" value="0.22" />
+        <entry key="..\:/Users/Admin/Desktop/Quan_Ly_Cham_Cong/app/src/main/res/layout/fragment_dscn.xml" value="0.35052083333333334" />
+        <entry key="..\:/Users/Admin/Desktop/Quan_Ly_Cham_Cong/app/src/main/res/layout/fragment_dssp.xml" value="0.2" />
+        <entry key="..\:/Users/Admin/Desktop/Quan_Ly_Cham_Cong/app/src/main/res/layout/fragment_edit_c_c.xml" value="0.35052083333333334" />
+        <entry key="..\:/Users/Admin/Desktop/Quan_Ly_Cham_Cong/app/src/main/res/layout/fragment_edit_sp.xml" value="0.2064814814814815" />
+        <entry key="..\:/Users/Admin/Desktop/Quan_Ly_Cham_Cong/app/src/main/res/layout/fragment_them_cc.xml" value="0.35052083333333334" />
+        <entry key="..\:/Users/Admin/Desktop/Quan_Ly_Cham_Cong/app/src/main/res/layout/item_cc.xml" value="0.35052083333333334" />
+        <entry key="..\:/Users/Admin/Desktop/Quan_Ly_Cham_Cong/app/src/main/res/layout/toolbar_qlcm.xml" value="0.3148148148148148" />
+        <entry key="..\:/Users/Admin/Desktop/trungdz/Quan_Ly_Cham_Cong/Quan_Ly_Cham_Cong/app/src/main/res/drawable-v24/custom_edit_text.xml" value="0.2015" />
+        <entry key="..\:/Users/Admin/Desktop/trungdz/Quan_Ly_Cham_Cong/Quan_Ly_Cham_Cong/app/src/main/res/drawable/color_btn.xml" value="0.1575" />
+        <entry key="..\:/Users/Admin/Desktop/trungdz/Quan_Ly_Cham_Cong/Quan_Ly_Cham_Cong/app/src/main/res/drawable/custom_btb.xml" value="0.1575" />
+        <entry key="..\:/Users/Admin/Desktop/trungdz/Quan_Ly_Cham_Cong/Quan_Ly_Cham_Cong/app/src/main/res/drawable/ic_baseline_keyboard.xml" value="0.2015" />
+        <entry key="..\:/Users/Admin/Desktop/trungdz/Quan_Ly_Cham_Cong/Quan_Ly_Cham_Cong/app/src/main/res/layout/activity_bieu_do.xml" value="0.3625" />
+        <entry key="..\:/Users/Admin/Desktop/trungdz/Quan_Ly_Cham_Cong/Quan_Ly_Cham_Cong/app/src/main/res/layout/activity_main.xml" value="0.3625" />
+        <entry key="..\:/Users/Admin/Desktop/trungdz/Quan_Ly_Cham_Cong/Quan_Ly_Cham_Cong/app/src/main/res/layout/activity_sign_in.xml" value="0.3625" />
+        <entry key="..\:/Users/Admin/Desktop/trungdz/Quan_Ly_Cham_Cong/Quan_Ly_Cham_Cong/app/src/main/res/layout/activity_them_bc.xml" value="0.3625" />
+        <entry key="..\:/Users/Admin/Desktop/trungdz/Quan_Ly_Cham_Cong/Quan_Ly_Cham_Cong/app/src/main/res/layout/custom_bao_cao.xml" value="0.3625" />
+        <entry key="..\:/Users/Admin/Desktop/trungdz/Quan_Ly_Cham_Cong/Quan_Ly_Cham_Cong/app/src/main/res/layout/custom_ds_cc.xml" value="0.3625" />
+        <entry key="..\:/Users/Admin/Desktop/trungdz/Quan_Ly_Cham_Cong/Quan_Ly_Cham_Cong/app/src/main/res/layout/custom_ds_sp.xml" value="0.3625" />
+        <entry key="..\:/Users/Admin/Desktop/trungdz/Quan_Ly_Cham_Cong/Quan_Ly_Cham_Cong/app/src/main/res/layout/custom_dscn.xml" value="0.3569230769230769" />
+        <entry key="..\:/Users/Admin/Desktop/trungdz/Quan_Ly_Cham_Cong/Quan_Ly_Cham_Cong/app/src/main/res/layout/fragmen_edit_cn.xml" value="0.3625" />
+        <entry key="..\:/Users/Admin/Desktop/trungdz/Quan_Ly_Cham_Cong/Quan_Ly_Cham_Cong/app/src/main/res/layout/fragmen_themcn.xml" value="0.3625" />
+        <entry key="..\:/Users/Admin/Desktop/trungdz/Quan_Ly_Cham_Cong/Quan_Ly_Cham_Cong/app/src/main/res/layout/fragmen_themsp.xml" value="0.3625" />
+        <entry key="..\:/Users/Admin/Desktop/trungdz/Quan_Ly_Cham_Cong/Quan_Ly_Cham_Cong/app/src/main/res/layout/fragment_bc.xml" value="0.3625" />
+        <entry key="..\:/Users/Admin/Desktop/trungdz/Quan_Ly_Cham_Cong/Quan_Ly_Cham_Cong/app/src/main/res/layout/fragment_ds_cc.xml" value="0.3625" />
+        <entry key="..\:/Users/Admin/Desktop/trungdz/Quan_Ly_Cham_Cong/Quan_Ly_Cham_Cong/app/src/main/res/layout/fragment_dscn.xml" value="0.3625" />
+        <entry key="..\:/Users/Admin/Desktop/trungdz/Quan_Ly_Cham_Cong/Quan_Ly_Cham_Cong/app/src/main/res/layout/fragment_edit_c_c.xml" value="0.3625" />
+        <entry key="..\:/Users/Admin/Desktop/trungdz/Quan_Ly_Cham_Cong/Quan_Ly_Cham_Cong/app/src/main/res/layout/fragment_edit_sp.xml" value="0.3625" />
+        <entry key="..\:/Users/Admin/Desktop/trungdz/Quan_Ly_Cham_Cong/Quan_Ly_Cham_Cong/app/src/main/res/layout/fragment_them_cc.xml" value="0.3625" />
+        <entry key="..\:/android/android_java/Quan_Ly_Cham_Cong/app/src/main/res/layout/activity_bieu_do.xml" value="0.16614583333333333" />
+        <entry key="..\:/android/android_java/Quan_Ly_Cham_Cong/app/src/main/res/layout/fragmen_edit_cn.xml" value="0.2713541666666667" />
+        <entry key="..\:/android/android_java/Quan_Ly_Cham_Cong/app/src/main/res/layout/fragment_bc.xml" value="0.176" />
+        <entry key="..\:/android/android_java/Quan_Ly_Cham_Cong/app/src/main/res/layout/fragment_edit_c_c.xml" value="0.16259057971014493" />
+        <entry key="..\:/android/android_java/Quan_Ly_Cham_Cong/app/src/main/res/layout/fragment_edit_sp.xml" value="0.16259057971014493" />
+        <entry key="..\:/android/android_java/Quan_Ly_Cham_Cong/app/src/main/res/layout/fragment_them_cc.xml" value="0.2713541666666667" />
+        <entry key="..\:/android/android_java/Quan_Ly_Cham_Cong/app/src/main/res/layout/item_bieu_do.xml" value="0.16259057971014493" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

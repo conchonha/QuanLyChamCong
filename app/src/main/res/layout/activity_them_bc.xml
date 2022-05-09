@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.ThemBcActivity">
+    <TextView
+        android:id="@+id/tv_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="Them bao cao"
+        android:textSize="20dp"
+        >
+
+    </TextView>
+    <TextView
+        android:id="@+id/ten"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ho va ten"
+        app:layout_constraintTop_toBottomOf="@id/tv_1"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+    <EditText
+        android:id="@+id/edt_name"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="tran van trung"
+        app:layout_constraintStart_toEndOf="@+id/ten"
+        app:layout_constraintTop_toTopOf="@+id/ten"
+        app:layout_constraintBottom_toBottomOf="@+id/ten"
+        android:layout_marginStart="50dp"
+        />
+    <TextView
+        android:id="@+id/tv_phanxuong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="phan xuong"
+        app:layout_constraintTop_toBottomOf="@+id/ten"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+    <EditText
+        android:id="@+id/edt_phanxuon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="1"
+        app:layout_constraintTop_toTopOf="@+id/tv_phanxuong"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_phanxuong"
+        app:layout_constraintStart_toEndOf="@+id/tv_phanxuong"
+        android:layout_marginStart="50dp"
+
+        />
+    <TextView
+        android:id="@+id/tv_tp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="tong thanh pham"
+        app:layout_constraintTop_toBottomOf="@+id/edt_phanxuon"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+    <EditText
+        android:id="@+id/edt_tp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="1"
+        app:layout_constraintTop_toTopOf="@+id/tv_tp"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_tp"
+        app:layout_constraintStart_toEndOf="@+id/tv_tp"
+        android:layout_marginStart="50dp"
+
+        />
+    <TextView
+        android:id="@+id/tv_soMinam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="so mi nam"
+        app:layout_constraintTop_toBottomOf="@+id/edt_tp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+    <EditText
+        android:id="@+id/edt_smNam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="1"
+        app:layout_constraintTop_toTopOf="@+id/tv_soMinam"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_soMinam"
+        app:layout_constraintStart_toEndOf="@+id/tv_soMinam"
+        android:layout_marginStart="50dp"
+
+        />
+    <TextView
+        android:id="@+id/tv_soMinu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="so mi nu"
+        app:layout_constraintTop_toBottomOf="@+id/edt_smNam"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+    <EditText
+        android:id="@+id/edt_smNu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="1"
+        app:layout_constraintTop_toTopOf="@+id/tv_soMinu"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_soMinu"
+        app:layout_constraintStart_toEndOf="@+id/tv_soMinu"
+        android:layout_marginStart="50dp"
+
+        />
+    <TextView
+        android:id="@+id/tv_sobaotay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="so bao tay"
+        app:layout_constraintTop_toBottomOf="@+id/edt_smNu"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+    <EditText
+        android:id="@+id/edt_baotay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="1"
+        app:layout_constraintTop_toTopOf="@+id/tv_sobaotay"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_sobaotay"
+        app:layout_constraintStart_toEndOf="@+id/tv_sobaotay"
+        android:layout_marginStart="50dp"
+
+        />
+    <TextView
+        android:id="@+id/tv_sodep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="so dep"
+        app:layout_constraintTop_toBottomOf="@+id/edt_baotay"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+    <EditText
+        android:id="@+id/edt_dep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="1"
+        app:layout_constraintTop_toTopOf="@+id/tv_sodep"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_sodep"
+        app:layout_constraintStart_toEndOf="@+id/tv_sodep"
+        android:layout_marginStart="50dp"
+
+        />
+    <TextView
+        android:id="@+id/tv_soNon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="so non"
+        app:layout_constraintTop_toBottomOf="@+id/edt_dep"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+    <EditText
+        android:id="@+id/edt_non"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="1"
+        app:layout_constraintTop_toTopOf="@+id/tv_soNon"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_soNon"
+        app:layout_constraintStart_toEndOf="@+id/tv_soNon"
+        android:layout_marginStart="50dp"
+
+        />
+    <TextView
+        android:id="@+id/tv_soquantay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="quan tay"
+        app:layout_constraintTop_toBottomOf="@+id/edt_non"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+    <EditText
+        android:id="@+id/edt_quantay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="1"
+        app:layout_constraintTop_toTopOf="@+id/tv_soquantay"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_soquantay"
+        app:layout_constraintStart_toEndOf="@+id/tv_soquantay"
+        android:layout_marginStart="50dp"
+
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_luu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lưu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edt_quantay" />
+
+
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
