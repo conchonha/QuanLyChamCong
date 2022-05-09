@@ -21,4 +21,7 @@ public interface ChiTietChamCongDAO {
 
     @Query("SELECT * FROM ChiTietChamCong ORDER BY soTP DESC LIMIT 7")
     LiveData<List<ChiTietChamCong>> getListChiTietChamCongBieuDo();
+
+//    @Query("SELECT * FROM ChiTietChamCong where maSP")
+//    LiveData<List<ChiTietChamCong>> getListChiTietChamCongBieuDo();
 }

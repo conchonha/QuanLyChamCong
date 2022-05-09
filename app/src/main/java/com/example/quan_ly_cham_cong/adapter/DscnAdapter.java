@@ -13,6 +13,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.quan_ly_cham_cong.R;
+import com.example.quan_ly_cham_cong.fragment.BaoCaoNewActivity;
 import com.example.quan_ly_cham_cong.model.CongNhan;
 import com.example.quan_ly_cham_cong.model.SanPham;
 
@@ -23,9 +24,11 @@ public class DscnAdapter extends RecyclerView.Adapter<ViewHolderDscn> implements
     private OnClickEditCN listener;
     private ArrayList<CongNhan> listCn = new ArrayList<>();
     private ArrayList<CongNhan> listCnNull = new ArrayList<>();
+    private int baocao = 0;
 
-    public DscnAdapter(OnClickEditCN listener){
+    public DscnAdapter(OnClickEditCN listener,int baocaoValue){
         this.listener = listener;
+        this.baocao = baocaoValue;
     }
     @NonNull
     @Override
@@ -37,7 +40,7 @@ public class DscnAdapter extends RecyclerView.Adapter<ViewHolderDscn> implements
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolderDscn holder, int position) {
-        holder.bindData(listCn.get(position), listener);
+        holder.bindData(listCn.get(position), listener,baocao);
     }
 
     @Override
@@ -84,6 +87,7 @@ public class DscnAdapter extends RecyclerView.Adapter<ViewHolderDscn> implements
     public interface OnClickEditCN{
         void onClick(CongNhan congNhan);
         void xoacn(CongNhan congNhan);
+        void baocao(CongNhan congNhan);
     }
 }
 
@@ -93,14 +97,22 @@ class ViewHolderDscn extends RecyclerView.ViewHolder {
         super(view);
     }
     TextView tv_ten_cn, tv_ma_cn, tv_phan_xuong;
-    ImageView btn_edit_cn ,xoa;
+    ImageView btn_edit_cn ,xoa,img_bao_cao;
 
-    void bindData(CongNhan congNhan, DscnAdapter.OnClickEditCN listener) {
+    void bindData(CongNhan congNhan, DscnAdapter.OnClickEditCN listener,int baocao) {
         tv_ten_cn = itemView.findViewById(R.id.tv_ten_cn_ds);
         tv_ma_cn = itemView.findViewById(R.id.tv_ma_cn_ds);
         tv_phan_xuong = itemView.findViewById(R.id.tv_phan_xuong);
         btn_edit_cn = itemView.findViewById(R.id.edt_cn);
         xoa = itemView.findViewById(R.id.img_xoacn);
+        img_bao_cao = itemView.findViewById(R.id.img_bao_cao);
+        if(baocao == BaoCaoNewActivity.BAO_CAO_VALUE){
+            btn_edit_cn.setVisibility(View.GONE);
+            xoa.setVisibility(View.GONE);
+        }else{
+            img_bao_cao.setVisibility(View.GONE);
+        }
+
         if (congNhan.getPhanXuong() == null){
             tv_ma_cn.setText("Mã công nhân: " + congNhan.getMaCN());
             tv_ten_cn.setText("Tên công nhân: " + congNhan.getTenCN());
@@ -118,6 +130,12 @@ class ViewHolderDscn extends RecyclerView.ViewHolder {
                 }
             }
         });
+        img_bao_cao.setOnClickListener((v)->{
+            if(listener !=null){
+                listener.baocao(congNhan);
+            }
+        });
+
         xoa.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

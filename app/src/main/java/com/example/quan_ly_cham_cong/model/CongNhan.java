@@ -77,4 +77,16 @@ public class CongNhan implements Serializable {
     }
 
     public CongNhan(){}
+
+    @Override
+    public String toString() {
+        return "CongNhan{" +
+                "id=" + id +
+                ", maCN='" + maCN + '\'' +
+                ", HoCN='" + HoCN + '\'' +
+                ", TenCN='" + TenCN + '\'' +
+                ", PhanXuong='" + PhanXuong + '\'' +
+                ", chamCong=" + chamCong +
+                '}';
+    }
 }

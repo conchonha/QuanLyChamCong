@@ -1,6 +1,7 @@
 package com.example.quan_ly_cham_cong.adapter;
 
 import android.annotation.SuppressLint;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -121,6 +122,8 @@ class ViewHolderDSCC extends RecyclerView.ViewHolder{
                 tv_ma_cc.setVisibility(View.GONE);
                 tv_ngay_cc.setVisibility(View.GONE);
             }
+
+        Log.d("AAA", "bindData: "+congNhan.getMaCN());
         edt_cc.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

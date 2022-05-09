@@ -80,4 +80,16 @@ public class ChiTietChamCong implements Serializable {
     public void setListSanPham(List<SanPham> listSanPham) {
         this.listSanPham = listSanPham;
     }
+
+    @Override
+    public String toString() {
+        return "ChiTietChamCong{" +
+                "id=" + id +
+                ", maCC='" + maCC + '\'' +
+                ", maSP='" + maSP + '\'' +
+                ", soTP=" + soTP +
+                ", soPP=" + soPP +
+                ", listSanPham=" + listSanPham +
+                '}';
+    }
 }

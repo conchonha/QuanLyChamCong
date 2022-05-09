@@ -37,7 +37,6 @@ public class SignInActivity extends AppCompatActivity {
     }
 
     private  void signUp(String email, String mk){
-        startActivity(new Intent(SignInActivity.this, MainActivity.class));
 
         if(email.isEmpty() || mk.isEmpty()){
             Toast.makeText(this, "Bạn chưa nhập tài khoản mật khẩu!", Toast.LENGTH_SHORT).show();

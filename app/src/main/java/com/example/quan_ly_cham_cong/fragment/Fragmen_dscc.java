@@ -74,6 +74,7 @@ public class Fragmen_dscc extends AppCompatActivity implements DsccAdapter.OnCli
                 if (database.chamCongDAO().listChamCong() != null) {
                     if (database.congNhanDAO().getListCongNhan() != null) {
                         adapter.addData((ArrayList<CongNhan>) database.congNhanDAO().getListCongNhan());
+
                         rcv_ds_cc.setAdapter(adapter);
                         rcv_ds_cc.setLayoutManager(new LinearLayoutManager(this));
                     }

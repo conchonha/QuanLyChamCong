@@ -66,4 +66,15 @@ public class ChamCong implements Serializable {
         this.chiTietChamCong = chiTietChamCong;
     }
     public ChamCong(){}
+
+    @Override
+    public String toString() {
+        return "ChamCong{" +
+                "id=" + id +
+                ", maCC='" + maCC + '\'' +
+                ", ngayCC='" + ngayCC + '\'' +
+                ", maCN='" + maCN + '\'' +
+                ", chiTietChamCong=" + chiTietChamCong +
+                '}';
+    }
 }

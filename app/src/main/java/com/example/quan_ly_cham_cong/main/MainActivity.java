@@ -10,6 +10,7 @@ import android.view.View;
 
 import com.example.quan_ly_cham_cong.R;
 import com.example.quan_ly_cham_cong.fragment.BaoCaoActivity;
+import com.example.quan_ly_cham_cong.fragment.BaoCaoNewActivity;
 import com.example.quan_ly_cham_cong.fragment.Fragmen_dscc;
 import com.example.quan_ly_cham_cong.fragment.FragmentDscn;
 import com.example.quan_ly_cham_cong.fragment.Fragment_dssp;
@@ -64,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
         btn_bc.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, BaoCaoActivity.class);
+                Intent intent = new Intent(MainActivity.this, BaoCaoNewActivity.class);
                 startActivity(intent);
             }
         });

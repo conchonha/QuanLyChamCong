@@ -27,4 +27,6 @@
     <string name="ngay">Ngày chấm</string>
     <string name="ma_nvv">Mã nhân viên</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="bao_cao">Báo Cáo</string>
+    <string name="lbl_loading">Loading</string>
 </resources>

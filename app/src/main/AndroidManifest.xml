@@ -3,19 +3,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.quan_ly_cham_cong"
     android:versionCode="3"
-    android:versionName="3.1.0" >
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.INTERNET"/>
+    android:versionName="3.1.0">
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:requestLegacyExternalStorage="true"
         android:theme="@style/Theme.Quan_Ly_Cham_Cong">
+        <activity
+            android:name=".fragment.LoadBaoCaoWebView"
+            android:exported="false" />
+        <activity android:name=".fragment.BaoCaoNewActivity" />
         <activity
             android:name=".fragment.ThemBcActivity"
             android:exported="false" />
@@ -43,20 +44,18 @@
         <activity
             android:name=".fragment.BaoCaoActivity"
             android:exported="true" />
-        <activity android:name=".fragment.BieuDoActivity"
-            android:exported="true"/>
-
+        <activity
+            android:name=".fragment.BieuDoActivity"
+            android:exported="true" />
         <activity
             android:name=".main.MainActivity"
             android:exported="true" />
-
         <activity
             android:name=".fragment.Fragment_Snv"
             android:exported="true" />
         <activity
             android:name=".fragment.FragmentEditCC"
             android:exported="true" />
-
         <activity
             android:name=".sign_in.SignInActivity"
             android:exported="true">
@@ -67,5 +66,9 @@
             </intent-filter>
         </activity>
     </application>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
 
 </manifest>
