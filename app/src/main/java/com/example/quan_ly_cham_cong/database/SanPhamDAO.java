@@ -14,7 +14,7 @@ import java.util.List;
 
 @Dao
 public interface SanPhamDAO {
-    @Insert
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
     void insertSanPham(SanPham sanPham);
 
     @Query("SELECT * FROM SanPham")

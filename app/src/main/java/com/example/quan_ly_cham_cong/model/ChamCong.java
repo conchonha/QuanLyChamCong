@@ -4,16 +4,17 @@ package com.example.quan_ly_cham_cong.model;
 
 
 
+import androidx.annotation.NonNull;
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;
 
 import java.io.Serializable;
 import java.util.List;
 
-@Entity
+@Entity(primaryKeys = {"maCC"})
 public class ChamCong implements Serializable {
-    @PrimaryKey(autoGenerate = true)
     private int id;
+    @NonNull
     private String maCC;
     private String ngayCC;
     private String maCN;

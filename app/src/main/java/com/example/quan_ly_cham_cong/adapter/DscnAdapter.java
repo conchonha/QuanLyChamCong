@@ -96,7 +96,7 @@ class ViewHolderDscn extends RecyclerView.ViewHolder {
     public ViewHolderDscn(View view) {
         super(view);
     }
-    TextView tv_ten_cn, tv_ma_cn, tv_phan_xuong;
+    TextView tv_ten_cn, tv_ma_cn, tv_phan_xuong,txt_macc;
     ImageView btn_edit_cn ,xoa,img_bao_cao;
 
     void bindData(CongNhan congNhan, DscnAdapter.OnClickEditCN listener,int baocao) {
@@ -106,6 +106,7 @@ class ViewHolderDscn extends RecyclerView.ViewHolder {
         btn_edit_cn = itemView.findViewById(R.id.edt_cn);
         xoa = itemView.findViewById(R.id.img_xoacn);
         img_bao_cao = itemView.findViewById(R.id.img_bao_cao);
+        txt_macc = itemView.findViewById(R.id.txt_macc);
         if(baocao == BaoCaoNewActivity.BAO_CAO_VALUE){
             btn_edit_cn.setVisibility(View.GONE);
             xoa.setVisibility(View.GONE);
@@ -121,6 +122,12 @@ class ViewHolderDscn extends RecyclerView.ViewHolder {
             tv_ma_cn.setText("Mã công nhân: " + congNhan.getMaCN());
             tv_ten_cn.setText("Tên công nhân: " + congNhan.getTenCN());
             tv_phan_xuong.setText("Phân xưởng: " + congNhan.getPhanXuong());
+        }
+
+        if(congNhan.getChamCong() != null && congNhan.getChamCong().getMaCC()!= null){
+            txt_macc.setText("Mã Chấm Công: " +congNhan.getChamCong().getMaCC());
+        }else{
+            txt_macc.setVisibility(View.GONE);
         }
         btn_edit_cn.setOnClickListener(new View.OnClickListener() {
             @Override

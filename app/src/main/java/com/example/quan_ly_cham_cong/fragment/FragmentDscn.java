@@ -127,7 +127,7 @@ public class FragmentDscn extends AppCompatActivity implements DscnAdapter.OnCli
     public void baocao(CongNhan congNhan) {
         String maCC = "null";
         String ngayCC = "null";
-        String soSP = "null";
+        int soSP = 0;
         String soPP = "null";
         String tienCong = "null";
         String thanhTien = "null";
@@ -141,19 +141,18 @@ public class FragmentDscn extends AppCompatActivity implements DscnAdapter.OnCli
 
            if (congNhan.getChamCong() != null && congNhan.getChamCong().getChiTietChamCong() != null) {
                ChiTietChamCong chiTietChamCong = congNhan.getChamCong().getChiTietChamCong();
-               soSP = chiTietChamCong.getSoTP() + "";
+               soSP = chiTietChamCong.getSoTP();
                soPP = chiTietChamCong.getSoPP() + "";
-               tienCong = (chiTietChamCong.getSoTP() * 30000) + "";
-               thanhTien = tienCong;
 
                for (SanPham sanPham : congNhan.getChamCong().getChiTietChamCong().getListSanPham()) {
                    String maSP = sanPham.getMaSP();
                    String tenSP = sanPham.getTenSP();
-
-                   postDataGoogleSheet(maCC, ngayCC, maSP, tenSP, soSP, soPP, tienCong, thanhTien);
+                   tienCong = sanPham.getDonGia() +"";
+                   thanhTien = (sanPham.getDonGia() * soSP ) +"";
+                   postDataGoogleSheet(maCC, ngayCC, maSP, tenSP, soSP+"", soPP, tienCong, thanhTien);
                }
            } else {
-               postDataGoogleSheet(maCC, ngayCC, "null", "null", soSP, soPP, tienCong, thanhTien);
+               postDataGoogleSheet(maCC, ngayCC, "null", "null", soSP+"", soPP, tienCong, thanhTien);
            }
        }catch (Exception e){
            helper.dismisProgess();

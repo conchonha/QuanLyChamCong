@@ -65,7 +65,6 @@
         android:text="Mã sản phẩm"
         />
     <EditText
-        android:enabled="false"
         android:id="@+id/tv_masp_2"
         android:layout_width="@dimen/size10"
         android:layout_height="@dimen/sizebutton"
